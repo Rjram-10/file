@@ -29,7 +29,8 @@ pipeline{
         }
 
         stage("Final"){
-            echo "Hello, Jenkins! This is my first pipeline."
-        }
+            steps{
+            echo 'Hello, Jenkins! This is my first pipeline.'
+        }}
     }
 }
